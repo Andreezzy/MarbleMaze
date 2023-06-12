@@ -8,21 +8,21 @@
 
 /* Begin PBXBuildFile section */
 		01615A872A36A035007763FE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01615A862A36A035007763FE /* AppDelegate.swift */; };
-		01615A892A36A035007763FE /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 01615A882A36A035007763FE /* art.scnassets */; };
 		01615A8B2A36A035007763FE /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01615A8A2A36A035007763FE /* GameViewController.swift */; };
 		01615A8E2A36A035007763FE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 01615A8C2A36A035007763FE /* Main.storyboard */; };
 		01615A902A36A035007763FE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 01615A8F2A36A035007763FE /* Assets.xcassets */; };
 		01615A932A36A035007763FE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 01615A912A36A035007763FE /* LaunchScreen.storyboard */; };
+		01615A9A2A36A076007763FE /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 01615A992A36A076007763FE /* art.scnassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		01615A832A36A035007763FE /* MarbleMaze.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MarbleMaze.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		01615A862A36A035007763FE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		01615A882A36A035007763FE /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
 		01615A8A2A36A035007763FE /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		01615A8D2A36A035007763FE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		01615A8F2A36A035007763FE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		01615A922A36A035007763FE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		01615A992A36A076007763FE /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; name = art.scnassets; path = "../../../../../Downloads/3D_Apple_Games_by_Tutorials_3/11-materials/starter/MarbleMaze/MarbleMaze/art.scnassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,11 +56,11 @@
 			isa = PBXGroup;
 			children = (
 				01615A862A36A035007763FE /* AppDelegate.swift */,
-				01615A882A36A035007763FE /* art.scnassets */,
 				01615A8A2A36A035007763FE /* GameViewController.swift */,
 				01615A8C2A36A035007763FE /* Main.storyboard */,
 				01615A8F2A36A035007763FE /* Assets.xcassets */,
 				01615A912A36A035007763FE /* LaunchScreen.storyboard */,
+				01615A992A36A076007763FE /* art.scnassets */,
 			);
 			path = MarbleMaze;
 			sourceTree = "<group>";
@@ -123,8 +123,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				01615A892A36A035007763FE /* art.scnassets in Resources */,
 				01615A932A36A035007763FE /* LaunchScreen.storyboard in Resources */,
+				01615A9A2A36A076007763FE /* art.scnassets in Resources */,
 				01615A902A36A035007763FE /* Assets.xcassets in Resources */,
 				01615A8E2A36A035007763FE /* Main.storyboard in Resources */,
 			);
@@ -291,8 +291,7 @@
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UIStatusBarHidden = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -319,8 +318,7 @@
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UIStatusBarHidden = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
